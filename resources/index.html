@@ -1,0 +1,1926 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Bank connectivity simplified.">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
+    
+    
+      
+        <title>Resources - belvo-python</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.75751829.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#resources" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="belvo-python" class="md-header-nav__button md-logo" aria-label="belvo-python">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            belvo-python
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Resources
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/belvo-finance/belvo-python" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    belvo-finance/belvo-python
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="belvo-python" class="md-nav__button md-logo" aria-label="belvo-python">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    belvo-python
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/belvo-finance/belvo-python" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    belvo-finance/belvo-python
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href=".." class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../sessions/" class="md-nav__link">
+      Sessions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Resources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Resources
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#institutions" class="md-nav__link">
+    Institutions
+  </a>
+  
+    <nav class="md-nav" aria-label="Institutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+    <nav class="md-nav" aria-label="Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registering-a-new-link" class="md-nav__link">
+    Registering a new Link
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-links" class="md-nav__link">
+    Deleting links
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-an-existing-link" class="md-nav__link">
+    Updating an existing Link
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requesting-link-scoped-tokens" class="md-nav__link">
+    Requesting link scoped tokens
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accounts" class="md-nav__link">
+    Accounts
+  </a>
+  
+    <nav class="md-nav" aria-label="Accounts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-accounts" class="md-nav__link">
+    Fetching accounts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-accounts" class="md-nav__link">
+    Deleting accounts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_1" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transactions" class="md-nav__link">
+    Transactions
+  </a>
+  
+    <nav class="md-nav" aria-label="Transactions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-transactions" class="md-nav__link">
+    Fetching transactions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-transactions" class="md-nav__link">
+    Deleting transactions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_2" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#balances" class="md-nav__link">
+    Balances
+  </a>
+  
+    <nav class="md-nav" aria-label="Balances">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-balances" class="md-nav__link">
+    Fetching balances
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-balances" class="md-nav__link">
+    Deleting balances
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_3" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomes" class="md-nav__link">
+    Incomes
+  </a>
+  
+    <nav class="md-nav" aria-label="Incomes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-incomes" class="md-nav__link">
+    Fetching incomes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#owners" class="md-nav__link">
+    Owners
+  </a>
+  
+    <nav class="md-nav" aria-label="Owners">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-owners" class="md-nav__link">
+    Fetching owners
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-owners" class="md-nav__link">
+    Deleting owners
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_4" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invoices" class="md-nav__link">
+    Invoices
+  </a>
+  
+    <nav class="md-nav" aria-label="Invoices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-invoices" class="md-nav__link">
+    Fetching invoices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-invoices" class="md-nav__link">
+    Deleting invoices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_1" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-returns" class="md-nav__link">
+    Tax Returns
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Returns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-tax-returns" class="md-nav__link">
+    Fetching tax returns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-tax-returns" class="md-nav__link">
+    Deleting tax returns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_2" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-status" class="md-nav__link">
+    Tax Status
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Status">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-tax-status" class="md-nav__link">
+    Fetching tax status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-tax-status" class="md-nav__link">
+    Deleting tax status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_3" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statements" class="md-nav__link">
+    Statements
+  </a>
+  
+    <nav class="md-nav" aria-label="Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-statements" class="md-nav__link">
+    Fetching statements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resume-fetch-statements" class="md-nav__link">
+    Resume fetch statements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-statements" class="md-nav__link">
+    Deleting statements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_4" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#widgettoken" class="md-nav__link">
+    WidgetToken
+  </a>
+  
+    <nav class="md-nav" aria-label="WidgetToken">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-new-token" class="md-nav__link">
+    Creating a new token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#institutions" class="md-nav__link">
+    Institutions
+  </a>
+  
+    <nav class="md-nav" aria-label="Institutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+    <nav class="md-nav" aria-label="Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registering-a-new-link" class="md-nav__link">
+    Registering a new Link
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-links" class="md-nav__link">
+    Deleting links
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-an-existing-link" class="md-nav__link">
+    Updating an existing Link
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requesting-link-scoped-tokens" class="md-nav__link">
+    Requesting link scoped tokens
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accounts" class="md-nav__link">
+    Accounts
+  </a>
+  
+    <nav class="md-nav" aria-label="Accounts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-accounts" class="md-nav__link">
+    Fetching accounts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-accounts" class="md-nav__link">
+    Deleting accounts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_1" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transactions" class="md-nav__link">
+    Transactions
+  </a>
+  
+    <nav class="md-nav" aria-label="Transactions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-transactions" class="md-nav__link">
+    Fetching transactions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-transactions" class="md-nav__link">
+    Deleting transactions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_2" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#balances" class="md-nav__link">
+    Balances
+  </a>
+  
+    <nav class="md-nav" aria-label="Balances">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-balances" class="md-nav__link">
+    Fetching balances
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-balances" class="md-nav__link">
+    Deleting balances
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_3" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomes" class="md-nav__link">
+    Incomes
+  </a>
+  
+    <nav class="md-nav" aria-label="Incomes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-incomes" class="md-nav__link">
+    Fetching incomes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#owners" class="md-nav__link">
+    Owners
+  </a>
+  
+    <nav class="md-nav" aria-label="Owners">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-owners" class="md-nav__link">
+    Fetching owners
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-owners" class="md-nav__link">
+    Deleting owners
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-and-filtering_4" class="md-nav__link">
+    List and filtering
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invoices" class="md-nav__link">
+    Invoices
+  </a>
+  
+    <nav class="md-nav" aria-label="Invoices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-invoices" class="md-nav__link">
+    Fetching invoices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-invoices" class="md-nav__link">
+    Deleting invoices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_1" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-returns" class="md-nav__link">
+    Tax Returns
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Returns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-tax-returns" class="md-nav__link">
+    Fetching tax returns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-tax-returns" class="md-nav__link">
+    Deleting tax returns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_2" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-status" class="md-nav__link">
+    Tax Status
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Status">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-tax-status" class="md-nav__link">
+    Fetching tax status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-tax-status" class="md-nav__link">
+    Deleting tax status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_3" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statements" class="md-nav__link">
+    Statements
+  </a>
+  
+    <nav class="md-nav" aria-label="Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetching-statements" class="md-nav__link">
+    Fetching statements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resume-fetch-statements" class="md-nav__link">
+    Resume fetch statements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-statements" class="md-nav__link">
+    Deleting statements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list_4" class="md-nav__link">
+    List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#widgettoken" class="md-nav__link">
+    WidgetToken
+  </a>
+  
+    <nav class="md-nav" aria-label="WidgetToken">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-new-token" class="md-nav__link">
+    Creating a new token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="resources">Resources</h1>
+<p>With the Python SDK you will be able to consume the following API resources:</p>
+<h2 id="institutions">Institutions</h2>
+<p>Bank entities that are supported by Belvo API.</p>
+<h3 id="list">List</h3>
+<p>Retrieve all bank integrations available.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all institutions</span>
+<span class="n">institutions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Institutions</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="links">Links</h2>
+<p>Links an end-user identity with a bank entity.</p>
+<h3 id="registering-a-new-link">Registering a new Link</h3>
+<p>To register a <code>Link</code> you <strong>must</strong> provide: <em>institution, username and password</em>. 
+Optionally you can also provide a <em>token</em> (for MFA) and a <em>secret</em> (that will
+be used to safely encrypt and decrypt the password).</p>
+<p>The <code>Link</code> will only be registered if the provided credentials are valid and will
+be validated by authenticating against the specified bank.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">institution</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">username</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">password</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">username2</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">username3</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">password2</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">access_mode</span><span class="p">:</span> <span class="n">AccessMode</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">username_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">certificate</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">private_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Link that doesn&#39;t require a MFA token</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;banamex&quot;</span><span class="p">,</span> <span class="s2">&quot;johndoe&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">)</span>
+
+<span class="c1"># Link that requires a MFA token</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;bancomer&quot;</span><span class="p">,</span> <span class="s2">&quot;johndoe&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="s2">&quot;37038919&quot;</span><span class="p">)</span>
+
+<span class="c1"># Link with custom encryption key</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;santander&quot;</span><span class="p">,</span> <span class="s2">&quot;johndoe&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">,</span> <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-secret&quot;</span><span class="p">)</span>
+
+<span class="c1"># Creating a recurrent link</span>
+<span class="kn">from</span> <span class="nn">belvo.enums</span> <span class="kn">import</span> <span class="n">AccessMode</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;banamex&quot;</span><span class="p">,</span> <span class="s2">&quot;johndoe&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">,</span> <span class="n">access_mode</span><span class="o">=</span><span class="n">AccessMode</span><span class="o">.</span><span class="n">RECURRENT</span><span class="p">)</span>
+
+<span class="c1"># Creating a Link with a username_type</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;banamex&quot;</span><span class="p">,</span> <span class="s2">&quot;johndoe&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">,</span> <span class="n">username_type</span><span class="o">=</span><span class="s2">&quot;001&quot;</span><span class="p">)</span>
+
+<span class="c1"># Creating a Link with a certificate and private_key</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;sat_mx_fiscal&quot;</span><span class="p">,</span> <span class="s2">&quot;johndoe&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">,</span> <span class="n">certificate</span><span class="o">=</span><span class="s2">&quot;/path/to/cert&quot;</span><span class="p">,</span> <span class="n">private_key</span><span class="o">=</span><span class="s2">&quot;/path/to/key&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>Please keep in mind that by using your own <code>encryption_key</code> when creating a <code>Link</code>, you
+will need to send it in <strong>ALL</strong> subsequent requests. </p>
+<p>Belvo API doesn't store passwords in plain text, neither does store custom secrets. 
+Keep your custom <code>encryption_key</code> safe. Don't loose it.</p>
+<h3 id="deleting-links">Deleting links</h3>
+<p>A <code>Link</code> is persisted into our database when you register it, if you want you can 
+delete it at any time and data related to the <code>Link</code> will be also deleted.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>When deleting a <code>Link</code>, all <em>accounts</em>, <em>transactions</em> and <em>owners</em> data will be
+deleted on cascade.</p>
+<h3 id="list-and-filtering">List and filtering</h3>
+<p>In order to make easier to find a <code>Link</code> (or many of them), it is possible to 
+filter the results.</p>
+<p>If not filters are provided, you will get all <code>Links</code> that you have registered.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all links (no filter given)</span>
+<span class="n">links</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+
+<span class="c1"># Retrieve links for a specific bank</span>
+<span class="n">links</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">institution</span><span class="o">=</span><span class="s2">&quot;banorte&quot;</span><span class="p">)</span>
+
+<span class="c1"># Retrieve links for a list of banks</span>
+<span class="n">links</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">institution__in</span><span class="o">=</span><span class="s2">&quot;hsbc,banamex,santander&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h3 id="updating-an-existing-link">Updating an existing Link</h3>
+<p>A <code>Link</code> is persisted into our database when you register it, if you want you can 
+update it with new data, like a password change.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">update</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">password</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">password2</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">username_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">certificate</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">private_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Update a Link&#39;s password</span>
+<span class="n">link</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span> <span class="s2">&quot;a-password&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="requesting-link-scoped-tokens">Requesting link scoped tokens</h3>
+<p>A link token that contains <code>access</code> and <code>refresh</code> keys.
+This link token is scoped to the link that created it and valid for the actions done with this link only.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">token</span><span class="p">(</span><span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">scopes</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">link_token</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Links</span><span class="o">.</span><span class="n">token</span><span class="p">(</span><span class="n">link</span><span class="o">=</span><span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span> <span class="n">scopes</span><span class="o">=</span><span class="s2">&quot;read_links&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h2 id="accounts">Accounts</h2>
+<p>Bank accounts available for a link.</p>
+<h3 id="fetching-accounts">Fetching accounts</h3>
+<p>To fetch accounts you will make use of the <code>.create()</code> method, the process will
+retrieve all account data available from the bank institution. You <strong>must</strong> 
+provide a <code>Link</code>.</p>
+<p>If the account already exists in our records, only its balance and <code>collected_at</code> 
+will be updated.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch accounts for a Link</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">)</span>
+
+<span class="c1"># Fetch accounts for a Link that was created with a custom encryption key</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch accounts for a Link with and timeout after 15 seconds</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span> 
+    <span class="n">timeout</span><span class="o">=</span><span class="mi">15</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-accounts">Deleting accounts</h3>
+<p>An <code>Account</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">account</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;161a5e4d-67f5-4760-ae4f-c1fe85cb20ca&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>When deleting an <code>Account</code>, all transactions_ and <em>owners</em> data will be deleted 
+on cascade.</p>
+<h3 id="list-and-filtering_1">List and filtering</h3>
+<p>In order to make easier to find a <code>Account</code> (or many of them), it is possible to 
+filter the results.</p>
+<p>If not filters are provided, you will get all <code>Accounts</code> that you have registered.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all accounts (no filter given)</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+
+<span class="c1"># Retrieve accounts for a specific bank</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">institution</span><span class="o">=</span><span class="s2">&quot;banorte&quot;</span><span class="p">)</span>
+
+
+<span class="c1"># Retrieve all checking accounts with an available balance &gt;= 100</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Accounts</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">type__in</span><span class="o">=</span><span class="s2">&quot;checking&quot;</span><span class="p">,</span> <span class="n">balance_available__gte</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="transactions">Transactions</h2>
+<p>Bank transactions made in a bank account. </p>
+<h3 id="fetching-transactions">Fetching transactions</h3>
+<p>To fetch transactions you will make use of the <code>.create()</code> method, the process will
+retrieve all transaction data available from the bank institution. You <strong>must</strong> 
+provide a <code>Link</code> and a date range defined by <code>date_from</code> and <code>date_to</code>. </p>
+<p>Optionally, if <code>Account</code> is given it will only fetch transaction matching 
+the account.</p>
+<p>If the account retrieved in the transaction doesn't exist, it will be created
+with the transaction.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">date_from</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">account</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch transactions for a Link</span>
+<span class="n">transactions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Transactions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="o">=</span><span class="s2">&quot;2019-07-31&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch transactions for a Link that was created with a custom encryption key</span>
+<span class="n">transactions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Transactions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="o">=</span><span class="s2">&quot;2019-07-31&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch transactions for a Link with timeout after 15 seconds</span>
+<span class="n">transactions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Transactions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="o">=</span><span class="s2">&quot;2019-07-31&quot;</span><span class="p">,</span>    
+    <span class="n">timeout</span><span class="o">=</span><span class="mi">15</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-transactions">Deleting transactions</h3>
+<p>A <code>Transaction</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">transaction</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Transactions</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b92935e6-fb9a-4c2f-9d7c-3e42165421d6&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list-and-filtering_2">List and filtering</h3>
+<p>In order to make easier to find a <code>Transaction</code> (or many of them), it is possible to 
+filter the results.</p>
+<p>If no filters are provided, you will get all <code>transactions</code> that you have registered.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">filters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all transactions (no filter given)</span>
+<span class="n">transactions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">transactions</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+
+<span class="c1"># Retrieve transactions for a specific bank</span>
+<span class="n">transactions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">transactions</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">institution</span><span class="o">=</span><span class="s2">&quot;banorte&quot;</span><span class="p">)</span>
+
+<span class="c1"># Retrieve transactions for a specific account</span>
+<span class="n">transactions</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">transactions</span><span class="o">.</span><span class="n">list</span><span class="p">(</span>
+    <span class="n">account</span><span class="o">=</span><span class="s2">&quot;161a5e4d-67f5-4760-ae4f-c1fe85cb20ca&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="balances">Balances</h2>
+<p>Account balances at a given time.</p>
+<h3 id="fetching-balances">Fetching balances</h3>
+<p>To fetch balances you will make use of the <code>.create()</code> method. You will get the 
+account balance at the end of every day within the specified date range. You <strong>must</strong> 
+provide a <code>Link</code> and a date range defined by <code>date_from</code> and <code>date_to</code>. </p>
+<p>Optionally, if <code>Account</code> is given it will only fetch transaction matching 
+the account.</p>
+<p>If the account retrieved in the transaction doesn't exist, it will be created
+with the transaction.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">date_from</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">account</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch balances for a Link</span>
+<span class="n">balances</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Balances</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="o">=</span><span class="s2">&quot;2019-07-31&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch balances for a Link that was created with a custom encryption key</span>
+<span class="n">balances</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Balances</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="o">=</span><span class="s2">&quot;2019-07-31&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch balances for a Link with timeout after 15 seconds</span>
+<span class="n">balances</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Balances</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="o">=</span><span class="s2">&quot;2019-07-31&quot;</span><span class="p">,</span>    
+    <span class="n">timeout</span><span class="o">=</span><span class="mi">15</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-balances">Deleting balances</h3>
+<p>A <code>Balance</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">balance</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Balances</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b92935e6-fb9a-4c2f-9d7c-3e42165421d6&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list-and-filtering_3">List and filtering</h3>
+<p>In order to make easier to find a <code>Balance</code> (or many of them), it is possible to 
+filter the results.</p>
+<p>If no filters are provided, you will get all <code>balances</code> that you have registered.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">filters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all balances (no filter given)</span>
+<span class="n">balances</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">balances</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+
+<span class="c1"># Retrieve balances for a specific bank</span>
+<span class="n">balances</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">balances</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">institution</span><span class="o">=</span><span class="s2">&quot;banorte&quot;</span><span class="p">)</span>
+
+<span class="c1"># Retrieve balances for a specific account</span>
+<span class="n">balances</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">balances</span><span class="o">.</span><span class="n">list</span><span class="p">(</span>
+    <span class="n">account</span><span class="o">=</span><span class="s2">&quot;161a5e4d-67f5-4760-ae4f-c1fe85cb20ca&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="incomes">Incomes</h2>
+<p>Bank entities that are supported by Belvo API.</p>
+<h3 id="fetching-incomes">Fetching incomes</h3>
+<p>Retrieve the monthly income summaries for a specific <code>Link</code>.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch incomes for a Link</span>
+<span class="n">incomes</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Incomes</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">)</span>
+
+<span class="c1"># Fetch incomes for a Link that was created with a custom encryption key</span>
+<span class="n">incomes</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Incomes</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch incomes for a Link with and timeout after 15 seconds</span>
+<span class="n">incomes</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Incomes</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="n">timeout</span><span class="o">=</span><span class="mi">15</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h2 id="owners">Owners</h2>
+<p>Personal information available from an account owner.</p>
+<h3 id="fetching-owners">Fetching owners</h3>
+<p>To fetch owners you will make use of the <code>.create()</code> method, the process will
+retrieve all owner data available from the bank institution. You <strong>must</strong> 
+provide a <code>Link</code>.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch owners for a Link</span>
+<span class="n">owners</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Owners</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">)</span>
+
+<span class="c1"># Fetch owners for a Link that was created with a custom encryption key</span>
+<span class="n">owners</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Owners</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch owners for a Link with and timeout after 15 seconds</span>
+<span class="n">owners</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Owners</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="n">timeout</span><span class="o">=</span><span class="mi">15</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-owners">Deleting owners</h3>
+<p>A <code>owner</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">owner</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Owners</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;e29e8def-1959-4cb8-892d-d3bf65a5d9f3&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list-and-filtering_4">List and filtering</h3>
+<p>In order to make easier to find a <code>Owner</code> (or many of them), it is possible to 
+filter the results.</p>
+<p>If not filters are provided, you will get all <code>owners</code> that you have registered.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all owners (no filter given)</span>
+<span class="n">owners</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">owners</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+
+<span class="c1"># Retrieve owners for a specific bank</span>
+<span class="n">owners</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">owners</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">institution</span><span class="o">=</span><span class="s2">&quot;banorte&quot;</span><span class="p">)</span>
+
+<span class="c1"># Retrieve owners for a specific account</span>
+<span class="n">owners</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">owners</span><span class="o">.</span><span class="n">list</span><span class="p">(</span>
+    <span class="n">account</span><span class="o">=</span><span class="s2">&quot;161a5e4d-67f5-4760-ae4f-c1fe85cb20ca&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="invoices">Invoices</h2>
+<p>List of invoices issued for a given account</p>
+<h3 id="fetching-invoices">Fetching invoices</h3>
+<p>To fetch invoices you will make use of the <code>.create()</code> method, the process will
+retrieve all invoices available from the institution. You <strong>must</strong> 
+provide a <code>Link</code>, a date range defined by <code>date_from</code> and <code>date_to</code> and invoice 
+<code>type</code>. </p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">date_from</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">date_to</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">type_</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">attach_xml</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch invoices for a Link</span>
+<span class="n">invoices</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Invoices</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-31&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;INFLOW&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch invoices for a Link that was created with a custom encryption key</span>
+<span class="n">invoices</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Invoices</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-01&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019-07-31&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;INFLOW&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-invoices">Deleting invoices</h3>
+<p>A <code>Invoice</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">invoice</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Invoices</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b92935e6-fb9a-4c2f-9d7c-3e42165421d6&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list_1">List</h3>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">filters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all invoices</span>
+<span class="n">invoices</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Invoices</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="tax-returns">Tax Returns</h2>
+<p>List of tax returns for a given account</p>
+<h3 id="fetching-tax-returns">Fetching tax returns</h3>
+<p>To fetch tax returns you will make use of the <code>.create()</code> method, the process will
+retrieve all tax returns available from the institution. You <strong>must</strong> 
+provide a <code>Link</code>, a year range defined by <code>year_from</code> and <code>year_to</code>. </p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">year_from</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">year_to</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">attach_pdf</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch tax returns for a Link</span>
+<span class="n">tax_returns</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">TaxReturns</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch tax returns for a Link that was created with a custom encryption key</span>
+<span class="n">tax_returns</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">TaxReturns</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-tax-returns">Deleting tax returns</h3>
+<p>A <code>TaxReturn</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">tax_return</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">TaxReturns</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b92935e6-fb9a-4c2f-9d7c-3e42165421d6&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list_2">List</h3>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">filters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all tax returns</span>
+<span class="n">tax_returns</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">TaxReturns</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="tax-status">Tax Status</h2>
+<p>Tax situation for a given <code>Link</code></p>
+<h3 id="fetching-tax-status">Fetching tax status</h3>
+<p>To fetch tax status you will make use of the <code>.create()</code> method, the process will
+retrieve the tax status from the institution. You <strong>must</strong> 
+provide a <code>Link</code>. </p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">attach_pdf</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch tax status for a Link</span>
+<span class="n">tax_status</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">TaxStatus</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch tax status for a Link that was created with a custom encryption key and retrieve it&#39;s pdf</span>
+<span class="n">tax_status</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">TaxReturns</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span><span class="p">,</span>
+    <span class="n">attach_pdf</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="deleting-tax-status">Deleting tax status</h3>
+<p>A <code>TaxStatus</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">tax_status</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">TaxStatus</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b92935e6-fb9a-4c2f-9d7c-3e42165421d6&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list_3">List</h3>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">filters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all tax status</span>
+<span class="n">tax_status</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">TaxStatus</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="statements">Statements</h2>
+<p>List of monthly statements for a given account</p>
+<h3 id="fetching-statements">Fetching statements</h3>
+<p>To fetch statements you will make use of the <code>.create()</code> method, the process will
+retrieve all monthly statements available from the institution. You <strong>must</strong> 
+provide a <code>Link</code>, an <code>Account</code> and a month defined by <code>year</code> and <code>month</code>. </p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">account</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">year</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">month</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">attach_pdf</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">save_data</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Fetch statements for a Link</span>
+<span class="n">statements</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Statements</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;161a5e4d-67f5-4760-ae4f-c1fe85cb20ca&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;2019&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;12&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Fetch statements for a Link that was created with a custom encryption key</span>
+<span class="n">statements</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Statements</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;b91835f5-6f83-4d9b-a0ad-a5a249f18b7c&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;161a5e4d-67f5-4760-ae4f-c1fe85cb20ca&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;20192,</span>
+    <span class="s2">&quot;12&quot;</span><span class="p">,</span>
+    <span class="n">encryption_key</span><span class="o">=</span><span class="s2">&quot;your-encryption-key&quot;</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h3 id="resume-fetch-statements">Resume fetch statements</h3>
+<p>Most institutions use 2FA to verify client's identity. The <code>.resume()</code> method 
+is needed in those cases to provide the required <code>token</code> during the login.
+<code>session</code>, <code>link</code> and <code>account</code> parameters will be needed to resume the process.</p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">resume</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">session</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">token</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">account</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">kwargs</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+</code></pre></div>
+
+<h3 id="deleting-statements">Deleting statements</h3>
+<p>A <code>Statement</code> is persisted into our database after you fetch it, if you want you 
+can delete it at any time.</p>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">statement</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="n">client</span><span class="o">.</span><span class="n">Statements</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;b92935e6-fb9a-4c2f-9d7c-3e42165421d6&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="list_4">List</h3>
+<p><strong>Method:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span><span class="o">**</span><span class="n">filters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Generator</span><span class="p">:</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p><strong>Example:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Retrieve all statements</span>
+<span class="n">statements</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">Statements</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+</code></pre></div>
+
+<p><strong><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/26a0.png" title=":warning:" /> Warning:</strong></p>
+<p>The <code>.list()</code> method yields a <code>Generator</code>, you will have to iterate  over it or
+cast it to <code>List</code> or <code>Tuple</code>.</p>
+<h2 id="widgettoken">WidgetToken</h2>
+<p>A widget token that contains <code>access</code> and <code>refresh</code> keys. Use <code>access</code> to connect the Belvo Widget to your app. </p>
+<h3 id="creating-a-new-token">Creating a new token</h3>
+<p>To create a new widget token you need to use the <code>.create()</code> method, the process will
+request a new token to our API. This token has a limited scope and a short time to live. </p>
+<p><strong>Method:</strong> </p>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">raise_exception</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">],</span> <span class="n">Dict</span><span class="p">]:</span>
+</code></pre></div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../sessions/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Sessions
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
